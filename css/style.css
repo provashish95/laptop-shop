@@ -100,3 +100,26 @@ header{
 #customer-review{
     background-color: rgb(247 162 246 / 96%);
 }
+.hot-deal-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0px;
+}
+.hot-deal-main .hot-deal-text{
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+}
+.hot-deal-main .hot-deal-text .important{
+    color: coral;
+}
+.hot-deal-main .hot-deal-text h2, p{
+    margin-bottom: 10px;
+}
+.hot-deal-img{
+    width: 100%;
+}
+.hot-deal-img img{
+    border-radius: 8px;
+}
