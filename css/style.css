@@ -24,6 +24,7 @@ button{
 button:hover{
     background-color: rgb(157, 70, 238);
     color: rgb(4, 38, 48);
+    transition: all 1s;
 }
 
 header{
@@ -38,6 +39,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .banner .banner-text *{
@@ -53,4 +55,30 @@ header{
 }
 .banner .banner-img img{
     vertical-align: middle;
+}
+
+#feature{
+    padding: 100px 0px;
+}
+.section-heading{
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+}
+.section-heading h1{
+    margin-bottom: 20px;
+}
+.main-laptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.laptop{
+    width: 100%;
+    border: 5px solid rgb(170, 179, 255);
+    border-radius: 8px;
+}
+.main-laptop p{
+    text-align: center;
 }
