@@ -87,3 +87,16 @@ header{
     border-radius: 300px 300px 0px 0px;
     background-color: antiquewhite;
 }
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 50px 0px;
+}
+.review-items{
+    text-align: center;
+}
+#customer-review{
+    background-color: rgb(247 162 246 / 96%);
+}
