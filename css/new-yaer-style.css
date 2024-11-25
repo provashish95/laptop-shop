@@ -9,14 +9,16 @@
 }
 
 .container {
-    width: 80%;
+    width: 83%;
     max-width: 1320px;
     margin: 0 auto;
 }
 
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-position: center;
     height: 600px;
     border-radius: 16px;
     display: flex;
@@ -82,7 +84,61 @@
     font-weight: 700;
     line-height: normal;
 }
-.off-img img{
+
+.off-img img {
     width: 800px;
     height: 500px;
+}
+
+/* Midnight-section... */
+.midnight-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 600px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: red;
+}
+
+.midnight-text {
+    width: 600px;
+}
+
+.midnight-text h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.midnight-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.midnight-text button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #FFF;
+    margin: 23px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.midnight-banner-img {
+    width: 320px;
+    height: 400px;
 }
