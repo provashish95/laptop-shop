@@ -142,3 +142,37 @@
     width: 320px;
     height: 400px;
 }
+
+/* address section start here... */
+.address {
+    margin: 120px 0px;
+    background-color: antiquewhite;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.address button{
+    border: none;
+    background-color: #F00;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.address-text {
+    text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.address-color{
+    color: #F00;
+}
