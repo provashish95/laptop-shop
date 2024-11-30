@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(253, 206, 206);
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+        }
+
+        main form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            width: 50%;
+        }
+        .form-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+            </div>
+            <div>
+                <a href="">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <form action="#">
+                <label for="name">Name: </label>
+                <input type="text" name="Name" placeholder="Enter your Name here..." required>
+                <label for="email">Email: </label>
+                <input type="email" name="Email" placeholder="Enter your email here..." required>
+                <label for="number">Phone: </label>
+                <input type="text" name="Number" placeholder="Enter your Number here..." required>
+                <label for="date">Date: </label>
+                <input type="date" name="Date" placeholder="Enter your date here..." required>
+                <label for="password">Password: </label>
+                <input type="password" name="Password" placeholder="Enter your password here..." required>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
